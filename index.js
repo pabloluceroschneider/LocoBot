@@ -16,8 +16,8 @@ bot.on('message', (msg) => {
 	if (msg.content == 'HELLO') {
 		msg.reply('HELLO FRIEND!');
 	}
-	if (msg.content.includes["partidas","corchos"]) {
-		msg.reply('Para botardo ya estoy yo');
+	if (msg.content.includes["tibio","frio"]) {
+		msg.reply('🥶🥶🥶');
 	}
 });
 
