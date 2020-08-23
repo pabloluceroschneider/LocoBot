@@ -16,7 +16,7 @@ bot.on('message', (msg) => {
 	if (msg.content == 'HELLO') {
 		msg.reply('HELLO FRIEND!');
 	}
-	if (msg.content.includes["tibio","frio"]) {
+	if (msg.content == '!tibio') {
 		msg.reply('🥶🥶🥶');
 	}
 });
